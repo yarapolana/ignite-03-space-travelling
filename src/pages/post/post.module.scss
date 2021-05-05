@@ -1,1 +1,28 @@
-// TODO
+.postContainer {
+  padding: 0 6.25rem;
+
+  h1 {
+    color: var(--heading);
+    font-size: 3rem;
+  }
+}
+
+.postCover {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.postContent {
+  h3 {
+    font-size: 2.25rem;
+    color: var(--heading);
+    margin: 4rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    margin-top: 1.2rem;
+  }
+}
