@@ -1,1 +1,30 @@
-// TODO
+.postItem {
+  display: block;
+  padding: 1.5rem 6.25rem 2.5rem;
+  transition: background 0.2s ease-in-out;
+
+  h1 {
+    font-size: 1.75rem;
+    padding: 1.0625rem 0;
+    font-weight: 700;
+    color: var(--heading);
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.375;
+    color: var(--body);
+  }
+}
+
+.homeContainer a:hover {
+  background: var(--background);
+  filter: brightness(1.2);
+}
+
+.moreButton {
+  background: none;
+  border: none;
+  color: var(--highlight);
+  padding: 1.5rem 6.25rem 2.5rem;
+}
